@@ -23,6 +23,6 @@ for i in range(len1):
         else:
             r=get_random_char()
             current[i]=r
-        print("".join(current))
+        print(" | | ".join(current),"|")
 
 
